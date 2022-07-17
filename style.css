@@ -49,12 +49,20 @@
     font-size: 1.2rem;
 }
 
+.header ul li a:hover {
+    color: #000;
+}
+
 .header .bx {
     font-size: 2rem;
     font-weight: 600;
-    color: var(--icon-color);
+    color: var(--first-color);
     margin-top: 3.5rem;
     cursor: pointer;
+}
+
+.header .bx:hover {
+    color: #000;
 }
 
 .content {
@@ -82,7 +90,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    mix-blend-mode:screen;
+    mix-blend-mode: screen;
 }
 
 .right-box video {
@@ -93,4 +101,38 @@
     height: 99.9%;
     object-fit: cover;
 
+}
+
+.title1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-left: 1.9rem;
+}
+
+.title2 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-left: 10.9rem;
+    margin-top: -30px;
+}
+
+.left-content .description {
+    font-size: 1.1rem;
+    margin-left: 1.9rem;
+}
+
+.left-content .btn {
+    padding: 20px 60px;
+    background-color: var(--first-color);
+    margin-left: 45%;
+    position: relative;
+    top: 40px;
+    color: #ffffff;
+    border-radius: 60px;
+    font-size: 1.3rem;
+    transition: .5s;
+    }
+.left-content .btn:hover {
+    background-color: #000;
+    color: var(--first-color);
 }
